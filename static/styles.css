@@ -1,0 +1,116 @@
+header {
+  background-color: white;
+  font-family: Futura;
+}
+
+body {
+  background-color: #4285F4;
+}
+
+h3 {
+  font-weight: lighter;
+  font-size: 2.8vw;
+  color: #4285F4;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 5%;
+  color: white;
+  font-size: 4.5vw;
+}
+
+b {
+  color: #DB4437;
+  opacity: 2;
+}
+
+input[type=text]{
+  width: 80%;
+  text-align: center;
+  font-size: 200%;
+  color: black;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 15%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 2%;
+  margin: 2%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.student_response_options {
+  display: flex;
+  justify-content: space-around;
+  height: 30%;
+}
+
+.student_response_options img {
+  max-width: 20%;
+  height:auto;
+  border: none;
+  background: none;
+}
+
+.student_response_options input {
+  max-width: 20%;
+  height:auto;
+}
+
+.studentQuestions {
+  text-align: center;
+  position: relative;
+  top: 11%;
+  color: white;
+}
+
+.studentResponseDisplay img {
+  max-width: 10%;
+  height:auto;
+  position: absolute;
+  z-index: -1;
+}
+
+.studentResponseStatistics {
+  position: absolute;
+  right: 7px;
+  color:black;
+  background-color: rgba(192,192,192,0.5);
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 1.5vw;
+}
+
+::placeholder {
+  color: lightgrey;
+  font-size: 4vw;
+}
+
+#logo {
+  width: 10%;
+}
+
+#logo , h3 {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#thumbsUp {
+  position: absolute;
+  left: 20%;
+  top: 35%;
+}
+
+#thumbsDown {
+  position: absolute;
+  right: 20%;
+  top: 35%;
+}
